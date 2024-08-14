@@ -4,7 +4,8 @@ This application generates invoices for a store with item details like name, qua
 ## Database Schema
 ## Customer Table
 
-| First Header  | Second Header |
+| Column | Type |
+| :---: | :---: | 
 | ------------- | ------------- |
 | customer_id | INT PRIMARY KEY |
 | customer_name | VARCHAR(255) NOT NULL |
@@ -14,6 +15,8 @@ This application generates invoices for a store with item details like name, qua
 
 ## Items Table
 
+| First Header  | Second Header |
+| ------------- | ------------- |
 | item_id | INT auto_increment KEY |
 | item_name | VARCHAR(255) NOT NULL |
 | unit | VARCHAR(50) |
@@ -21,6 +24,8 @@ This application generates invoices for a store with item details like name, qua
 
 ## Invoices Table
 
+| First Header  | Second Header |
+| ------------- | ------------- |
 | invoice_id | INT auto_increment PRIMARY KEY |
 | customer_id | INT |
 | invoice_date | DATE |
@@ -32,6 +37,8 @@ This application generates invoices for a store with item details like name, qua
 
 ## Invoice Items
 
+| First Header  | Second Header |
+| ------------- | ------------- |
 | invoice_item_id | INT AUTO_INCREMENT PRIMARY KEY |
 | invoice_id | INT |
 | item_name | VARCHAR(255) NOT NULL |
