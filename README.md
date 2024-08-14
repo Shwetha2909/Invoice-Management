@@ -47,3 +47,7 @@ This application generates invoices for a store with item details like name, qua
 | FOREIGN KEY (invoice_id) REFERENCES Invoices(invoice_id) | 
 
 # Implementation Details
+## Main Page
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/7b476da0-dc65-4ab6-af5f-861a37bfa9fd">
+
