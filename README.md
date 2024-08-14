@@ -50,6 +50,7 @@ This application generates invoices for a store with item details like name, qua
 ## Main Page
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/7b476da0-dc65-4ab6-af5f-861a37bfa9fd">
+
 This main page consists of buttons for adding a customer, adding an invoice, viewing all invoices, viewing paid and unpaid invoices, viewing customer details, searching customer invoices, and viewing reports
 
 ## Add Customer
