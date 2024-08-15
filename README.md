@@ -64,10 +64,12 @@ This main page consists of buttons for adding a customer, adding an invoice, vie
 ## Add Customer
 
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/3265d501-de02-4bb4-a5e3-4f017def7122">
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/55a4b02f-d386-4c1a-834f-90ab1f3c0302">
 
 ## Add Invoice
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/2f83f878-eebe-4906-96a6-341bbdf92f97">
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/d4aa2bc6-f135-4c7a-a598-d3d81ac170e6">
 
 ## View all Invoices
 
