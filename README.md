@@ -79,6 +79,7 @@ Once the customer details are entered, the next step is to add invoice details t
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/d4aa2bc6-f135-4c7a-a598-d3d81ac170e6">
 
+After entering the relevant details, a prompt will confirm "Invoice added successfully." The system then stores the invoice in the database, ensuring all information is securely saved.
 
 ## View all Invoices
 
@@ -92,13 +93,19 @@ Once the customer details are entered, the next step is to add invoice details t
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/69dc9ffa-7e98-43f6-8f34-a1fc6029fe15">
 
+The "View All Invoices" tab provides a comprehensive list of all invoices stored in the database. The "View Paid Invoices" tab filters and displays invoices that have been marked as paid. Conversely, the "View Unpaid Invoices" tab shows invoices with an unpaid status. This organization ensures easy access to the invoice details based on their payment status.
+
 ## Search Customer Invoices
 
 <img width="497" alt="image" src="https://github.com/user-attachments/assets/500086db-859b-49dd-99de-39af74ff9570">
 
+This frame allows users to search for customer invoices by entering a specific customer ID. Once the ID is provided, the frame displays all associated invoice details for that customer. This functionality ensures that users can quickly access and review invoices related to a particular customer.
+
 ## Customer Details
 
 <img width="494" alt="image" src="https://github.com/user-attachments/assets/b0e13980-c989-461d-b552-7c8f5529c4ea">
+
+If additional customer details are needed, this frame allows users to retrieve information by entering the customer's ID.It retrieves and displays the customer's relevant details, providing users with quick and efficient access to comprehensive information.
 
 ## View Report
 ## Invoice Status Count
@@ -109,7 +116,7 @@ Once the customer details are entered, the next step is to add invoice details t
 
 <img width="281" alt="image" src="https://github.com/user-attachments/assets/eaabb77f-27b0-4611-9e03-4241465c790f">
 
-
+Under the "View Report" tab, there are two analysis sections. The first tab displays a graph showing the count of invoice statuses, indicating whether invoices are paid or unpaid. The second tab features a graph of item sales by product, illustrating the total sales for each item based on the product type.
 
 
 
