@@ -12,6 +12,8 @@ This application generates invoices for a store with item details like name, qua
 | email | VARCHAR(255) |
 | address | TEXT |
 
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/f0ca14c7-65fb-4c06-a2f2-b8d4f7626c28">
+
 ## Items Table
 
 | Column Name | Type |
@@ -20,6 +22,8 @@ This application generates invoices for a store with item details like name, qua
 | item_name | VARCHAR(255) NOT NULL |
 | unit | VARCHAR(50) |
 | rate | DECIMAL(10, 2) NOT NULL |
+
+<img width="179" alt="image" src="https://github.com/user-attachments/assets/f78f7f48-828a-4f3e-a45d-1c7354ab16f7">
 
 ## Invoices Table
 
@@ -34,6 +38,8 @@ This application generates invoices for a store with item details like name, qua
 | status | ENUM('Paid', 'Unpaid') NOT NULL |
 | FOREIGN KEY (customer_id) REFERENCES Customers(customer_id) | 
 
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/6647d6de-fed3-492c-aab9-e50482b96d4e">
+
 ## Invoice Items
 
 | Column Name | Type |
@@ -45,6 +51,8 @@ This application generates invoices for a store with item details like name, qua
 | rate | DECIMAL(10, 2) |
 | unit| VARCHAR(50) |
 | FOREIGN KEY (invoice_id) REFERENCES Invoices(invoice_id) | 
+
+<img width="306" alt="image" src="https://github.com/user-attachments/assets/1746a9e7-dbfe-4d25-b8c7-2a1f54a65a0c">
 
 # Implementation Details
 ## Main Page
