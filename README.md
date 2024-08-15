@@ -59,17 +59,26 @@ This application generates invoices for a store with item details like name, qua
 
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/7b476da0-dc65-4ab6-af5f-861a37bfa9fd">
 
-This main page consists of buttons for adding a customer, adding an invoice, viewing all invoices, viewing paid and unpaid invoices, viewing customer details, searching customer invoices, and viewing reports
+The main page features buttons that allow users to add new customers and invoices, making it easy to manage store transactions. Users can view all invoices, as well as filter by paid and unpaid invoices, ensuring comprehensive tracking. Additionally, the page provides options to view customer details, search for specific customer invoices, and generate reports for analysis.
 
 ## Add Customer
 
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/3265d501-de02-4bb4-a5e3-4f017def7122">
+
+This frame prompts the user to enter customer details, including customer ID, name, phone number, address, and email. A note is prominently displayed in the frame, indicating that the customer ID should be numerical only. Input fields are provided for each detail, ensuring that users can easily fill in the required information. Validation checks are implemented to ensure that only numerical values are accepted for the customer ID, preventing errors during data entry.
+
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/55a4b02f-d386-4c1a-834f-90ab1f3c0302">
+
+After entering the customer details, a "Customer added successfully" prompt will confirm that the information has been saved. The system then securely stores the newly entered customer details in the *Customers* database, ensuring that all relevant information is recorded. This process updates the database with the latest customer data for future reference and transactions.
 
 ## Add Invoice
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/2f83f878-eebe-4906-96a6-341bbdf92f97">
+
+Once the customer details are entered, the next step is to add invoice details through the "Add Invoice" tab. This tab requires you to input the customer ID, invoice date, and payment status (paid or unpaid). You can then add items to the invoice by specifying the item name, quantity, rate, and unit type, such as piece, pair, box, or set.
+
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/d4aa2bc6-f135-4c7a-a598-d3d81ac170e6">
+
 
 ## View all Invoices
 
